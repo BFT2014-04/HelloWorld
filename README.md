@@ -1,2 +1,2 @@
 # HelloWorld
-Beispiel für eine einfache Phone-Gap Anwendung
+Beispiel für eine einfache PhoneGap-Anwendung
