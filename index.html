@@ -6,6 +6,17 @@
   </head>
   <body>
     <h1>Willkommen</h1>
-    <p>Meine erste "Hello World"-App</p>
+    <p>Glückliche/r-Schüler/in-App</p>
+    <h2>Glücklicher Schüler</h2>
+    <button onclick="zeigeSchüler();">Bestimme glücklichen Schüler</button>
+    <div id="ausgabe"></div>
+    <script>
+      function zeigeSchüler()
+      {
+        var schülerliste = ["Hugo", "Irene", "Agape", "Wallerich"];
+        var zufall = Math.random()*schülerliste.length);
+        document.getElementById("ausgabe").innerHTML=schülerliste[zufall];
+      }
+    </script>
   </body>
 </html>
